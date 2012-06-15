@@ -20,6 +20,18 @@ public class Decider {
        p3a = java.lang.Math.abs(p3s);
        p4a = java.lang.Math.abs(p4s);
        i = 1;
+       if (p1 == 0) {
+           p1a = 0;
+       }
+       if (p2 == 0) {
+           p2a = 0;
+       }
+       if (p3 == 0) {
+           p3a = 0;
+       }
+       if (p4 == 0) {
+           p4a = 0;
+       }
        int winner = 0;
        boolean p1w = false;
        boolean p2w = false;
